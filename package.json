@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-gnavi",
+  "version": "0.0.0",
+  "description": "eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurunavi-creators/eslint-config-gnavi.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "makotot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gurunavi-creators/eslint-config-gnavi/issues"
+  },
+  "homepage": "https://github.com/gurunavi-creators/eslint-config-gnavi#readme"
+}
