@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/gurunavi-creators/eslint-config-gnavi/issues"
   },
-  "homepage": "https://github.com/gurunavi-creators/eslint-config-gnavi#readme"
+  "homepage": "https://github.com/gurunavi-creators/eslint-config-gnavi#readme",
+  "devDependencies": {
+    "eslint": "^1.2.1"
+  }
 }
