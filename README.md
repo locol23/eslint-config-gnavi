@@ -6,7 +6,7 @@
 [![devDependencies](http://img.shields.io/david/dev/gurunavi-creators/eslint-config-gnavi.svg?style=flat-square)](https://github.com/gurunavi-creators/eslint-config-gnavi)
 [![License](http://img.shields.io/npm/l/eslint-config-gnavi.svg?style=flat-square)](https://github.com/gurunavi-creators/eslint-config-gnavi)
 
-> ESLint config for gnavi ui
+> [ESLint](http://eslint.org/) config for gnavi ui
 
 ## Install
 
@@ -16,9 +16,15 @@ $ npm i --save-dev eslint-config-gnavi
 
 ## Usage
 
-In your .eslintrc
+In your `.eslintrc`:
 ```
 {
+  "extends": ["eslint-config-gnavi"]
+}
+```
+or in your `package.json`:
+```
+"eslintConfig": {
   "extends": ["eslint-config-gnavi"]
 }
 ```
