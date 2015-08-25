@@ -23,7 +23,7 @@ In your `.eslintrc`:
 }
 ```
 or in your `package.json`:
-```
+```json
 "eslintConfig": {
   "extends": ["eslint-config-gnavi"]
 }
