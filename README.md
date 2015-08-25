@@ -3,7 +3,7 @@
 [![npm version](http://img.shields.io/npm/v/eslint-config-gnavi.svg?style=flat)](https://github.com/gurunavi-creators/eslint-config-gnavi)
 [![License](http://img.shields.io/npm/l/eslint-config-gnavi.svg?style=flat)](https://github.com/gurunavi-creators/eslint-config-gnavi)
 
-> Eslint config for gnavi ui
+> ESLint config for gnavi ui
 
 ## Install
 

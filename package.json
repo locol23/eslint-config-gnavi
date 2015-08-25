@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-gnavi",
-  "version": "0.0.0",
-  "description": "eslint config",
+  "version": "0.0.1",
+  "description": "ESLint config for gnavi ui",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/eslint/bin/eslint.js index.js"
