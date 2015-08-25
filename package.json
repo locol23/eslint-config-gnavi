@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/gurunavi-creators/eslint-config-gnavi#readme",
   "devDependencies": {
-    "eslint": "^1.2.1"
+    "eslint": "^1.2.1",
+    "strip-json-comments": "^1.0.4"
   }
 }
