@@ -3,7 +3,7 @@ var path = require('path'),
   stripComments = require('strip-json-comments');
 
 module.exports = function () {
-  var rc = path.resolve(process.cwd(), '.eslintrc');
+  var rc = path.resolve(__dirname, '.eslintrc');
 
   return stripComments(fs.readFileSync(rc, 'utf-8'));
 };
