@@ -4,7 +4,8 @@
   "description": "ESLint config for gnavi ui",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/eslint/bin/eslint.js index.js"
+    "test": "./node_modules/eslint/bin/eslint.js index.js",
+    "bump": "./node_modules/.bin/release-it"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,8 @@
   },
   "homepage": "https://github.com/gurunavi-creators/eslint-config-gnavi#readme",
   "devDependencies": {
-    "eslint": "^1.6.0"
+    "eslint": "^1.6.0",
+    "release-it": "^2.3.1"
   },
   "dependencies": {
     "strip-json-comments": "^1.0.4"
