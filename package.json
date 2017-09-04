@@ -1,11 +1,10 @@
 {
   "name": "eslint-config-gnavi",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta2",
   "description": "ESLint config for gnavi ui",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/eslint/bin/eslint.js index.js",
-    "bump": "./node_modules/.bin/release-it"
+    "test": "./node_modules/eslint/bin/eslint.js index.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +13,7 @@
   "keywords": [
     "eslint"
   ],
-  "author": "makotot",
+  "author": "gnavi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gurunavi-creators/eslint-config-gnavi/issues"
