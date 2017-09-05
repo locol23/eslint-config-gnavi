@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gnavi",
-  "version": "1.0.0-beta2",
+  "version": "1.0.0-beta3",
   "description": "ESLint config for gnavi ui",
   "main": "index.js",
   "scripts": {
@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/gurunavi-creators/eslint-config-gnavi#readme",
   "devDependencies": {
-    "eslint": "^3.17.0",
-    "eslint-find-rules": "^1.14.3",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint": "^4.6.1",
+    "eslint-find-rules": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0"
   },
   "dependencies": {
-    "eslint": "^3.17.0",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint": "^4.6.1",
+    "eslint-plugin-import": "^2.7.0"
   }
 }
