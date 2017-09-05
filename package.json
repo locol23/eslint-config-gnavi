@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gnavi",
-  "version": "1.0.0-beta3",
+  "version": "1.0.0",
   "description": "ESLint config for gnavi ui",
   "main": "index.js",
   "scripts": {
