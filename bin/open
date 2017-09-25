@@ -1,0 +1,2 @@
+#!/bin/sh
+open "http://eslint.org/docs/rules/${1}"
