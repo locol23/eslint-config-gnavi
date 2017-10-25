@@ -13,12 +13,13 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.json']
+        extensions: ['.js', '.json', '.vue']
       }
     },
     'import/extensions': [
       '.js',
       '.jsx',
+      '.vue',
     ],
     'import/core-modules': [
     ],
@@ -131,6 +132,7 @@ module.exports = {
     'import/extensions': ['error', 'always', {
       js: 'never',
       jsx: 'never',
+      vue: 'never',
     }],
 
     // Enforce a convention in module import order
