@@ -1,10 +1,26 @@
 {
   "name": "eslint-config-gnavi",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ESLint config for gnavi ui",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/eslint/bin/eslint.js index.js"
+    "start": "prettier-eslint --write \"./**/*.js\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint --write",
+      "eslint",
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": "^10.14.0",
+    "npm": "^6.4.0"
   },
   "repository": {
     "type": "git",
@@ -19,13 +35,15 @@
     "url": "https://github.com/gurunavi-creators/eslint-config-gnavi/issues"
   },
   "homepage": "https://github.com/gurunavi-creators/eslint-config-gnavi#readme",
-  "devDependencies": {
-    "eslint": "^4.6.1",
-    "eslint-find-rules": "^3.1.1",
-    "eslint-plugin-import": "^2.7.0"
-  },
   "dependencies": {
-    "eslint": "^4.6.1",
-    "eslint-plugin-import": "^2.7.0"
+    "babel-eslint": "10.0.1",
+    "eslint": "5.10.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0"
+  },
+  "devDependencies": {
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "prettier-eslint-cli": "^4.7.1"
   }
 }
