@@ -1,21 +1,20 @@
 module.exports = {
-  extends: [
-    './rules/best-practices',
-    './rules/errors',
-    './rules/node',
-    './rules/style',
-    './rules/variables',
-    './rules/es6',
-    './rules/imports',
-  ].map(require.resolve),
+  extends: ['airbnb-base'],
   parserOptions: {
-    ecmaVersion: 2017,
+    ecmaVersion: 2019,
     sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
   },
   rules: {
-    strict: 'error',
+    semi: ['error', 'never'],
+    'max-len': ['error', { code: 120 }],
+    camelcase: ['error', { ignoreDestructuring: true }],
+    'prefer-object-spread': ['error'],
+    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    'no-invalid-this': 'off',
+    'no-param-reassign': ['error', { props: true, ignorePropertyModificationsFor: [] }],
+    'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
+    'import/prefer-default-export': 'off',
+    'import/no-default-export': 'error',
+    'import/no-named-default': 'off',
   },
 }
