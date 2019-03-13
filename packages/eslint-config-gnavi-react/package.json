@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-gnavi-react",
+  "version": "0.1.0",
+  "description": "Gnavi's ESLint config for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurunavi-creators/eslint-config-gnavi.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "gnavi",
+    "javascript",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "es2019"
+  ],
+  "author": "gnavi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gurunavi-creators/eslint-config-gnavi/issues"
+  },
+  "homepage": "https://github.com/gurunavi-creators/eslint-config-gnavi#readme",
+  "dependencies": {
+    "eslint-config-gnavi": "^1.1.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "prettier": "^1.16.4"
+  },
+  "engines": {
+    "node": "^10.15.3"
+  }
+}
