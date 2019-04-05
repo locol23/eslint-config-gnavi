@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-gnavi",
+  "version": "2.0.0",
+  "description": "ESLint config for gnavi ui",
+  "main": "index.js",
+  "scripts": {
+    "start": "prettier-eslint --write \"./**/*.js\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint --write",
+      "eslint",
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": "^10.15.1",
+    "npm": "^6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurunavi-creators/eslint-config-gnavi.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "gnavi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gurunavi-creators/eslint-config-gnavi/issues"
+  },
+  "homepage": "https://github.com/gurunavi-creators/eslint-config-gnavi#readme",
+  "dependencies": {
+    "eslint": "5.14.1",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.16.0"
+  },
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.4",
+    "prettier-eslint-cli": "^4.7.1"
+  }
+}

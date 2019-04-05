@@ -1,33 +1,13 @@
 # eslint-config-gnavi
 
-[![npm version](http://img.shields.io/npm/v/eslint-config-gnavi.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-gnavi)
-[![travis](http://img.shields.io/travis/gurunavi-creators/eslint-config-gnavi.svg?style=flat-square)](https://travis-ci.org/gurunavi-creators/eslint-config-gnavi)
-[![dependencies](http://img.shields.io/david/gurunavi-creators/eslint-config-gnavi.svg?style=flat-square)](https://github.com/gurunavi-creators/eslint-config-gnavi)
-[![devDependencies](http://img.shields.io/david/dev/gurunavi-creators/eslint-config-gnavi.svg?style=flat-square)](https://github.com/gurunavi-creators/eslint-config-gnavi)
 [![License](http://img.shields.io/npm/l/eslint-config-gnavi.svg?style=flat-square)](https://github.com/gurunavi-creators/eslint-config-gnavi)
 
-> [ESLint](http://eslint.org/) config for gnavi ui
+> [ESLint](http://eslint.org/) shareable config for Gnavi UI
 
-## Install
+## Table of Contents
 
-```sh
-$ npm i --save-dev eslint-config-gnavi
-```
-
-## Usage
-
-In your `.eslintrc`:
-```
-{
-  "extends": ["eslint-config-gnavi"]
-}
-```
-or in your `package.json`:
-```json
-"eslintConfig": {
-  "extends": ["eslint-config-gnavi"]
-}
-```
+- [eslint-config-gnavi](https://github.com/gurunavi-creators/eslint-config-gnavi/packages/eslint-config-gnavi)
+- [eslint-config-gnavi-react](https://github.com/gurunavi-creators/eslint-config-gnavi/packages/eslint-config-gnavi-react)
 
 ## License
 
