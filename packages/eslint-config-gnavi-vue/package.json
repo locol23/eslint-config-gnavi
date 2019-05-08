@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gnavi-vue",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ESLint config for Vue.js Project of gnavi",
   "main": "index.js",
   "scripts": {
