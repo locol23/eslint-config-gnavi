@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/gurunavi-creators/eslint-config-gnavi#readme",
   "dependencies": {
-    "eslint-config-gnavi": "^1.1.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.5.0"
