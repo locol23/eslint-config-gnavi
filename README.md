@@ -6,8 +6,9 @@
 
 ## Table of Contents
 
-- [eslint-config-gnavi](https://github.com/gurunavi-creators/eslint-config-gnavi/packages/eslint-config-gnavi)
-- [eslint-config-gnavi-react](https://github.com/gurunavi-creators/eslint-config-gnavi/packages/eslint-config-gnavi-react)
+- [eslint-config-gnavi](https://github.com/gurunavi-creators/eslint-config-gnavi/tree/master/packages/eslint-config-gnavi)
+- [eslint-config-gnavi-react](https://github.com/gurunavi-creators/eslint-config-gnavi/tree/master/packages/eslint-config-gnavi-react)
+- [eslint-config-gnavi-vue](https://github.com/gurunavi-creators/eslint-config-gnavi/tree/master/packages/eslint-config-gnavi-vue)
 
 ## License
 
