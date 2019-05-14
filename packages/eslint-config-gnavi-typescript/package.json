@@ -31,8 +31,7 @@
   "homepage": "https://github.com/gurunavi-creators/eslint-config-gnavi/packages/eslint-config-gnavi-react#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.6.0",
-    "@typescript-eslint/parser": "^1.6.0",
-    "eslint-config-prettier": "^4.1.0"
+    "@typescript-eslint/parser": "^1.6.0"
   },
   "devDependencies": {
     "eslint": "^5.15.1",
